@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kudzai | Now</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <h1>Now.</h1>
+        <button id="theme-toggle">🌓 Mode</button>
+      </div>
+      <p class="subtitle">Progress over perfection. Daily updates.</p>
+
+      <div class="progress-container">
+        <div class="progress-text">
+          <span id="current-day">Day 1</span> of 90
+        </div>
+        <div class="progress-bar-bg">
+          <div id="progress-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid-container">
+      <section class="card learning">
+        <h2>Today I'm Learning</h2>
+        <p id="learning-content"></p>
+      </section>
+
+      <section class="card building">
+        <h2>Built This Week</h2>
+        <ul id="build-list"></ul>
+      </section>
+
+      <section class="card stuck">
+        <h2>The Wall</h2>
+        <p id="stuck-content"></p>
+      </section>
+
+      <section class="card figured-out">
+        <h2>Figured Out</h2>
+        <p id="win-content"></p>
+      </section>
+    </main>
+
+    <div class="archive-section">
+      <button id="toggle-archive">📜 View History</button>
+      <div id="archive-content" class="archive-grid hidden"></div>
+    </div>
+
+    <footer>
+      <p id="last-updated">Updated: Just now</p>
+      <p><a href="https://github.com/your-username">View GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
