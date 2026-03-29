@@ -12,48 +12,51 @@
         <h1>Now.</h1>
         <button id="theme-toggle">🌓 Mode</button>
       </div>
-      <p class="subtitle">Progress over perfection. Daily updates.</p>
-
-      <div class="progress-container">
-        <div class="progress-text">
-          <span id="current-day">Day 1</span> of 90
-        </div>
-        <div class="progress-bar-bg">
-          <div id="progress-fill" class="progress-bar-fill"></div>
-        </div>
-      </div>
+      <p class="subtitle">30-Day Front-End Sprint: Day 1</p>
     </header>
 
     <main class="grid-container">
-      <section class="card learning">
-        <h2>Today I'm Learning</h2>
-        <p id="learning-content"></p>
+      <section class="card">
+        <h2>Today I Learnt</h2>
+        <p id="learning-content">
+          Planning the 30-Day Front-End Roadmap and auditing CSS structure.
+        </p>
       </section>
 
-      <section class="card building">
-        <h2>Built This Week</h2>
-        <ul id="build-list"></ul>
+      <section class="card">
+        <h2>30-Day Challenge List</h2>
+        <ul>
+          <li>Weeks 1-2: Flexbox, Grid, & Responsive Design</li>
+          <li>Week 3: JavaScript DOM & Logic</li>
+          <li>Week 4: API Integration & Final Project</li>
+        </ul>
       </section>
 
-      <section class="card stuck">
-        <h2>The Wall</h2>
-        <p id="stuck-content"></p>
+      <section class="card">
+        <h2>Challenges Taken</h2>
+        <p>Completed the Day 1 Reset & Roadmap Audit.</p>
       </section>
 
-      <section class="card figured-out">
-        <h2>Figured Out</h2>
-        <p id="win-content"></p>
+      <section class="card">
+        <h2>Progress Map</h2>
+        <p><strong>Current Step:</strong> Phase 1 (Layouts)</p>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" style="width: 3.3%"></div>
+        </div>
+        <p><small>Step 1 of 30 complete</small></p>
       </section>
     </main>
 
     <div class="archive-section">
       <button id="toggle-archive">📜 View History</button>
-      <div id="archive-content" class="archive-grid hidden"></div>
+      <ul id="archive-content" class="hidden">
+        <li>Day 1: Official Reset & Roadmap Setup (Mar 29)</li>
+      </ul>
     </div>
 
     <footer>
-      <p id="last-updated">Updated: Just now</p>
-      <a href="https://github.com/Kudzaim-Dev" id="view-github">View GitHub</a>
+      <p id="update-stamp">Updated: Mar 29, 2026 | 13:00 PM</p>
+      <a href="https://github.com/Kudzaim-Dev" target="_blank">View GitHub</a>
     </footer>
 
     <script src="script.js"></script>
